@@ -10,23 +10,25 @@ function btnYes() {
 
 function ramdomLocationButton() {
   const buttonNo = document.getElementById('no')
+
   const totalNumber = 300
-  const numberRandom = Math.floor(Math.random() * totalNumber)
+  const numberRandomTop = Math.floor(Math.random() * totalNumber)
+  const numberRandomLeft = Math.floor(Math.random() * totalNumber)
 
 
   buttonNo.style.position = 'absolute';
-  buttonNo.style.top = '100px';
-  buttonNo.style.left = '0px';
+  buttonNo.style.top = '50px';
+  buttonNo.style.left = '10px';
 
 
   var leftAtual = parseInt(buttonNo.style.left);
   var topAtual = parseInt(buttonNo.style.top);
 
-  buttonNo.style.top = (topAtual + numberRandom) + 'px';
-  buttonNo.style.left = (leftAtual + numberRandom) + 'px';
+  buttonNo.style.top = (topAtual + numberRandomTop + 100) + 'px';
+  buttonNo.style.left = (leftAtual + numberRandomLeft) + 'px';
 
 
-  console.log(numberRandom)
+  console.log(numberRandomTop, numberRandomLeft)
 }
 
 
