@@ -6,8 +6,6 @@ function btnYes() {
   buttonNo.classList.add('invisible')
 }
 
-
-
 function ramdomLocationButton() {
   const buttonNo = document.getElementById('no')
 
@@ -30,10 +28,4 @@ function ramdomLocationButton() {
 
   console.log(numberRandomTop, numberRandomLeft)
 }
-
-
-
-
-
-
 

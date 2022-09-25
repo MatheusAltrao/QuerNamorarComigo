@@ -78,4 +78,22 @@ button.invisible{
 
 
 
+.developer p{
+  display: flex;
+  gap: 5px;
+
+  font-weight: 700;
+}
+
+a{
+
+  display: block;
+  color:  #00b8a5;
+  font-weight: 700;
+
+  text-decoration: none;
+}
+
+
+
 
